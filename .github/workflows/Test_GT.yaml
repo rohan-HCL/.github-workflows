@@ -15,6 +15,6 @@ jobs:
           application_id: 1d4883a6-1e37-4a79-81a9-7b2b4230fbf5
           scan_name: Scan_Name_Test_Case
           personal_scan: false
-          static_analysis_only: true
-          open_source_only: false
+          static_analysis_only: false
+          open_source_only: true
           scan_build_outputs: true
