@@ -14,4 +14,7 @@ jobs:
           asoc_secret: ${{secrets.ASOC_SECRET}}
           application_id: 1d4883a6-1e37-4a79-81a9-7b2b4230fbf5
           scan_name: Scan_Name_Test_Case
-          personal_scan: true
+          personal_scan: false
+          static_analysis_only: true
+          open_source_only: false
+          scan_build_outputs: true
